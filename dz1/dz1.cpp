@@ -26,7 +26,12 @@ int main()
 		_
 	};
 
-	COLORS game[3] = { O, X, _ };
+	COLORS game[3][3] =
+	{ 
+		{O, X, _},
+		{X, O, _},
+		{_, X, O}
+	};
 
 
 	struct GameOptions
